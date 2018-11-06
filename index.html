@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <title>TechFest '18 | BBDEC Lucknow </title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81617831-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-81617831-4');
+</script>
+
+
+<!-- Mirrored from asthra.sjcetpalai.ac.in/event.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Feb 2018 15:33:07 GMT -->
+
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald%7CSource+Sans+Pro:300,400,600,700" rel="stylesheet" type="text/css" />
+    <link href="tyler/vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link href="tyler/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="tyler/vendor/animsition/animsition.min.css" rel="stylesheet" />
+    <link href="tyler/vendor/slick/slick.css" rel="stylesheet" />
+    <link href="tyler/vendor/slick/slick-theme.css" rel="stylesheet" />
+    <link href="../cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <!-- 3 KB -->
+
+    <!-- Main CSS-->
+    <link href="tyler/css/style.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+  <!--aos-Animate-->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+<audio src="tyler/lazy.mp3" autoplay logo></audio> 
+    <div class="animsition">
+
+
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="http://bbdec.ac.in" class="current current logo"><img src="tyler/images/logo.jpg" height="25" width="25" class="scroll-reveal" alt="" />
+                        </a>
+                    </div>
+                    <!-- /.col-md-4 -->
+
+                    <div class="col-sm-8">
+                        <a href="http://bbdec.ac.in" class="next-event-top scroll-reveal">Babu Banarasi Das Engineering College</a>
+                    </div>
+                    <!-- /.col-md-8 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.topbar -->
+
+
+        <nav id="nav-1" class="navbar-fixed-top">
+            <ul class="sidebar-nav nav">
+                <li>
+                    <a href="#intro"> <img src="../techfest/tyler/images/navicon/home.png" class="img-responsive" alt="" /></a>
+                </li>
+
+                <li>
+                    <a href="#about"> <img src="../techfest/tyler/images/navicon/about.png" class="img-responsive" alt="" /></a>
+                </li>
+
+                <li>
+                    <a href="#events"> <img src="../techfest/tyler/images/navicon/events.png" class="img-responsive" alt="" /></a>
+                </li>
+                
+            </ul>
+        </nav>
+
+
+        <section id="intro" class="intro-2" data-parallax="scroll" data-image-src="tyler/images/bg/1.gif">
+
+            <div class="content" id="mouse-parallax">
+                <div class="container">
+                     
+                    <script type="text/javascript">
+                        
+                        var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+
+                    </script>
+                <style>
+                    h1 a:hover{
+                        color:#fff;
+                    }
+                </style>
+                    
+
+                    <h1 class="scroll-reveal">BBDEC Lucknow's <br /> </br><a style="color:#FE2E2E" href="#" class="typewrite" data-period="2000" data-type='[ "April 19-20","TechFest", "" ]'>
+
+                        <span class="wrap"></span></a>
+                        </h1>
+                    
+                  <p class="scroll-reveal"></p>
+                    <a href="techfest/index.html#events" class="btn btn-home scroll-reveal" style="color:#000;background:#fff;">Events</a>
+                    
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScoO9N0ZixatPMKD3X8xv0Cjtbh4QW0NWYIdAvChKYTJdc8sA/viewform" class="btn btn-home scroll-reveal" >REGISTER</a>
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.content -->
+
+        </section>
+        <!-- /#intro -->
+
+
+
+       
+
+
+
+        <section id="about" class="about-1">
+
+            <div class="container">
+
+                <div class="about-intro">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-md-6">
+
+                            <h3 class="" data-aos=zoom-out data-aos-duration=700 data-aos-easing=ease-in>About us</h3>
+                            <p class="subtitle" data-aos=fade-right data-aos-duration=700 data-aos-easing=ease-in>BBDEC LUCKNOW</p>
+                            <p class="text" data-aos=fade-up data-aos-duration=700 data-aos-easing=ease-in>
+
+An Institute is known by its students and faculties, who together characterize the Institute's intrinsic vision and wisdom. Our Institute has an academically strong team of faculties drawn from world's best Universities and Institutions. 
+It is for this reason that our students are bringing laurels and setting new records every year. Since the establishment in 2009, we have been striving for setting high standards and are committed to meeting our social responsibilities. 
+We are trying to incorporate best academic practices into all our academic programs.
+                
+				<!-- director mam message-->
+
+                               
+                                <br> 
+                                 </p>
+                            <p class="quote " data-aos=zoom-in data-aos-duration=700 data-aos-easing=ease-in><span>“</span>We are happy to introduce you to our first Tech Fest !</p>
+                            <p class="subtitle text-right" data-aos=fade-right data-aos-duration=700 data-aos-easing=ease-in>Coordinating team</p>
+
+                        </div>
+                        <!-- /.col-md-6 -->
+
+                        <div class="col-lg-6 col-lg-offset-1 col-md-6">
+                            <img src="tyler/images/about.png" class="img-responsive scroll-reveal" alt="" />
+
+                            <p class="subtitle" data-aos=fade-right data-aos-duration=700 data-aos-easing=ease-in>TECHFEST</p>
+                            <p class="" data-aos=zoom-in data-aos-duration=700 data-aos-easing=ease-in> This is a two days technical fest organized by the students of BBD Engineering College consisting various events like Robo Race, Code It and much more . . . 
+</p>
+<p> Winners will be awarded with cash prizes and much more                        </div>
+                        <!-- /.col-md-6 -->
+
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.about-intro -->
+
+
+
+
+
+
+
+
+
+                <section id="events">
+                    <div class="container">
+
+                        <h2 class="" data-aos=zoom-in-up data-aos-duration=700 data-aos-easing=ease-in>Events</h2>
+
+                        <div class="row">
+
+                           <div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\roborace\event\html\roborace\roborace.html" style="text-decoration: none";>
+                                <div class="box-cs" data-aos=fade-right data-aos-duration=700 data-aos-easing=ease-in>
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3>Robo Race</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+
+                            <div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\robosoccer\event\html\robosoccer\robosoccer.html" style="text-decoration: none";>
+                                <div class="box-chem" data-aos=fade-down data-aos-duration=700 data-aos-easing=ease-in >
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3>Robo Soccer</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+
+                            <div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\codeit\event\html\codeit\codeit.html" style="text-decoration: none";>
+                                <div class="box-civil" data-aos=fade-up data-aos-duration=700 data-aos-easing=ease-in>
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3>Code it</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+
+                            <div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\googler\event\html\googler\googler.html" style="text-decoration: none";>
+                                <div class="box-ec" data-aos=fade-left data-aos-duration=700 data-aos-easing=ease-in>
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3>Googler</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+
+
+                           <div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\gaming\event\html\gaming\gaming.html" style="text-decoration: none";>
+                                <div class="box-ee" data-aos=fade-right data-aos-duration=700 data-aos-easing=ease-in>
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3>LAN Gaming</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+
+
+                            <div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\junkyard\event\html\junkyard\junkyard.html" style="text-decoration: none";>
+                                <div class="box-mech" data-aos=fade-down data-aos-duration=700 data-aos-easing=ease-in>
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3>Junkyard Warrior</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+							
+                           <div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\bug\event\html\bug\bug.html" style="text-decoration: none";>
+                                <div class="box-mba" data-aos=fade-up data-aos-duration=700 data-aos-easing=ease-in>
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3>Bug Hunter</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+							
+							<div class="col-md-3 col-sm-6 mbot30">
+							    <a href = "..\techfest\events\socio\event\html\socio\socio.html" style="text-decoration: none";>
+                                <div class="box-robotics" data-aos=fade-left data-aos-duration=700 data-aos-easing=ease-in>
+  
+                                    <div class="overlay">
+                                        <span class="plus">
+										    <div class="block-text">
+											    <h3> Socio Quiz & Gadget Guru</h3>
+											</div>
+									    </span>
+                                    </div>
+  
+                                
+                                    <!-- /.post-content -->
+                                </div>
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+                            <!-- /.col-md-3 -->
+
+								</a>
+                                <!-- /.news-post -->
+                            </div>
+							
+
+
+                            
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/.container -->
+                </section>
+                <!-- /#news -->
+
+                <style>
+                    .mbot30 {
+                        margin-bottom: 30px;
+                    }
+                </style>
+
+
+
+
+
+
+
+
+
+
+
+               <!-- <div class="staff">
+
+                    <h2 class="background-text scroll-reveal" style="opacity: 0.1; z-index: 9999;">Team</h2>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <div class="staff-member">
+                                <img src="tyler/images/team.jpg" style="z-index: -999;" class="img-responsive scroll-reveal" alt="" />
+                                <div class="content " data-aos=fade-down-right data-aos-duration=700 data-aos-easing=ease-in>
+                                    <h3>The Driving Force</h3>
+                                    <p class="subtitle">Organizing Team Asthra 2017</p>
+                                    <!--
+                                    <ul class="social list-inline list-unstyled">
+                                        <li><a href="index.html#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="index.html#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="index.html#"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!-- /.content --
+                            </div>
+                            <!-- /.staff-member --
+
+                        </div>
+                        <!-- /.col-sm-6 --
+
+
+
+
+
+
+
+                    </div>
+                    <!-- /.row --
+
+                </div>
+                <!-- /.staff -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /#about -->
+
+
+
+
+
+
+
+
+
+        
+
+
+        <footer>
+            <div class="container">
+                <div class="row" >
+                    <div class="col-md-8" >
+                        <ul class="list-inline list-unstyled ">
+                            <li><a href="index.html#intro">Home</a>
+                            </li>
+                            <li><a href="index.html#events">Events</a>
+                            </li>
+                            <li><a href="#">Results</a>
+                            </li>
+							<li><a href="../techfest/sponsors/sponsors/index.html">Sponsors</a>
+                            </li>
+                            <li><a href="../techfest/contact/contact/index.html">Contact US</a>
+                            </li>
+							
+                        </ul>
+</font>
+                    </div>
+															<font size="0.08" color="white"><a href="tyler/src.txt"> Developed by Lazy </a>
+
+                    <!-- /.col-md-8 -->
+                   <!-- <div class="col-md-4">
+                        <p class="copyright">Designed by TEAM RIPPLE</a> "
+						
+						
+						Thanks a lot Team Ripple and GITHUB for the source code- Lazy"
+                        
+						</p>
+                    </div> -->
+                    <!-- /.col-md-4 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </footer>
+
+    </div>
+    <!-- /.animsition -->
+
+    <script src="tyler/js/jquery-2.2.4.min.js"></script>
+    <script src="tyler/vendor/animsition/animsition.min.js"></script>
+    <script src="tyler/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="tyler/vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="tyler/vendor/parallax/parallax.min.js"></script>
+    <script src="tyler/vendor/jquery-smooth-scrolling/jquery.smoothscroll.min.js"></script>
+    <script src="tyler/vendor/slick/slick.min.js"></script>
+    
+    <script src="tyler/js/map.js"></script>
+    <!-- fotorama.css & fotorama.js. -->
+<script src="../cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    
+    <!-- 16 KB -->
+
+    <script src="tyler/js/scripts.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+</body>
+
+</html>
